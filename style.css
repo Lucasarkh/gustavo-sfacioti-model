@@ -7,53 +7,54 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-body {
-    background: rgb(26, 26, 26);
+header {
+    width: 100vw;
 }
 
 .nav-header {
-    padding: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
-    margin-bottom: 5%;
-    margin: 0 10vw;
+    background: rgba(20, 20, 20, 0.8);
 
 }
 
-.nav-header h1 {
-    color: white;
-    font-weight: 400;
-}
 
 .nav-ul {
     display: flex;
     align-items: center;
+    padding: 10px;
+    margin: 0;
+
 }
 
 .nav-ul li {
     padding: 0 20px;
     list-style-type: none;
+    height: 100%;
+
 }
 
 .nav-ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     color: white;   
+    font-weight: 200;
 }
 
-.container-main {
-    display: flex;
-    justify-content: center;
-    margin: 0 30px;
+.section1 {
+    background: url( );
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 80px);
 }
 
-.container-main img {
+.section1 h1 {
+    coslor: rgb(255, 255, 151);
+}
 
-    width: 100%;
-    height: 80vh;
-    object-fit:cover;
-    object-position: top;
+.carousel-size {
+    width: 40vw;
 }
 
 .container-carousel {
