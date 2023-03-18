@@ -58,28 +58,12 @@ header {
     font-weight: 200;
 }
 
-.nav-ul li a:hover {
-    text-decoration: underline;
-    animation: linkAnimation 1s linear;
-}
-
-@keyframes linkAnimation {
-    0% {
-        width: 1px;
-    }
-    100% {
-        width: 100%;        
-    }
-    
-}
-
-
 
 
 
 
 .section1 {
-    background: url(/section1_bg.jpg);
+    background: url(section1_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
