@@ -4,7 +4,14 @@
     padding: 0;
     margin: 0;
     color: white;
+    box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
+}
+
+main {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 header {
@@ -67,27 +74,29 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    scroll-snap-align: center;
 }
 
-.section1-spacing {
-    margin-top: 8vh;
-    height: 92vh;
-}
 
-.section1-text {
+.section1-text,
+.section3-text {
     width: 40%;
 }
 
-.section1-text h1 {
+.section1-text h1
+.section3-text h1 {
     font-weight: 300;
 }
 
-.section1-btn {
+.section1-btn,
+.section2-btn,
+.section3-btn {
     margin-top: 50px;
-    padding: 10px 30px;
-    background: rgb(255, 255, 210);
-    color: black;
-    border-radius: 10px;
+    padding: 7px 25px;
+    background: rgba(231, 186, 94, 0.877);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 50px;
     border: none;
 }
 
@@ -131,18 +140,37 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
+    scroll-snap-align: center;
 }
 
-.section2-spacing {
-    margin-top: 8vh;
+.section3 {
+    background: url(section3_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height:100vh;
+    scroll-snap-align: center;
 }
 
-.section2-btn {
-    margin-top: 50px;
-    padding: 10px 30px;
-    background: rgb(255, 255, 210);
-    color: black;
-    border-radius: 10px;
-    border: none;
-    vertical-align: middle;
+.section3-spacing {
+    padding-top: 8vh;
+
 }
+
+.scroll-img {
+    width: 30px;
+    object-fit: contain;
+    animation: iconAnime 0.8s linear alternate infinite;
+}
+
+
+@keyframes iconAnime {
+    0% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(3px);
+    }
+}
+
