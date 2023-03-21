@@ -77,6 +77,11 @@ header {
     scroll-snap-align: center;
 }
 
+.section1-spacing {
+    height: 92vh;
+    margin-top: 8vh;
+}
+
 
 .section1-text,
 .section3-text {
