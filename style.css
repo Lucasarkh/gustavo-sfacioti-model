@@ -10,8 +10,8 @@
 
 main {
     height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+    /*scroll-snap-type: y mandatory;
+    overflow-y: scroll;*/
 }
 
 header {
