@@ -63,6 +63,13 @@ main {
         font-weight: 200;
     }
 
+    .nav-btn {
+        background: transparent;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
 
 
 
@@ -95,18 +102,18 @@ main {
     .section1-btn,
     .section2-btn,
     .section3-btn {
-        margin-top: 50px;
+        margin-top: 16px;
         padding: 7px 25px;
         background: #75695D;
         color: rgb(255, 255, 255);
         font-weight: 300;
-        border-radius: 50px;
+        border-radius: 5px;
         border: none;
     }
 
     .section1-img img {
         width: 30vw;
-        border-radius: 10px;
+        border-radius: 5px;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
     }
 
